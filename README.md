@@ -25,8 +25,8 @@ O projeto conta com os seguintes elementos:
 
 ## 🏷️ Tecnologias e Recursos Utilizados
 ### HTML
-- Estrutura semântica: <header>, <main>, <section>, <nav>, <footer>
-- Elementos de conteúdo: <h1>, <p>, <span>, <ul>, <li>, <a>
+- Estrutura semântica: `<header>`, `<main>`, `<section>`, `<nav>`, `<footer>`
+- Elementos de conteúdo: `<h1>`, `<p>`, `<span>`, `<ul>`, `<li>`, `<a>`
 - Imagens e acessibilidade com atributos alt e aria-label
 ### CSS
 - Flexbox para organização de layout
@@ -57,41 +57,44 @@ Durante o desenvolvimento, foram praticados:
 
 ## 🖼️ Modelo 
 
-Copiado do Site Pinterest
+Copiado do Site Pinterest      
+![Travel Adventure website design](https://github.com/user-attachments/assets/9979aa80-62c4-46fe-98c8-d552408aad5d)
 
 ## 🌟 Pré-visualização
+
+<img width="1903" height="1074" alt="Pré-visualização travel-landing-page" src="https://github.com/user-attachments/assets/a4451b72-8382-4514-8fa8-70bab8f72ca1" />
 
 ## 🚀 Como Executar
 
 Clone este repositório:
-```brash
+``brash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-```
+``
 
 Acesse a pasta do projeto:
 ``brash
 cd seu-repositorio
-````
+``
 
 Abra o arquivo index.html no navegador.
 
 ## 📁 Estrutura do Projeto
 
-📦 projeto
- ┣ 📂 assets
- ┃ ┣ 📂 images
- ┃ ┗ 📂 icons
- ┣ 📂 styles
- ┃ ┣ style.css
- ┃ ┗ responsive.css
- ┣ 📂 js
- ┃ ┣ main.js
- ┃ ┗ 📂 componentes
- ┃    ┣ search.js
- ┃    ┣ carrossel.js
- ┃    ┣ carrosselData.js
- ┃    ┗ createCarrossel.js
- ┗ 📄 index.html
+ 📦 projeto   
+ ┣ 📂 assets   
+ ┃ ┣ 📂 images   
+ ┃ ┗ 📂 icons   
+ ┣ 📂 styles   
+ ┃ ┣ style.css   
+ ┃ ┗ responsive.css   
+ ┣ 📂 js   
+ ┃ ┣ main.js   
+ ┃ ┗ 📂 componentes   
+ ┃    ┣ search.js   
+ ┃    ┣ carrossel.js   
+ ┃    ┣ carrosselData.js   
+ ┃    ┗ createCarrossel.js   
+ ┗ 📄 index.html    
 
 ## 👨‍💻 Autor
 
