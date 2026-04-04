@@ -64,6 +64,10 @@ Copiado do Site Pinterest
 
 <img width="1903" height="1074" alt="Pré-visualização travel-landing-page" src="https://github.com/user-attachments/assets/a4451b72-8382-4514-8fa8-70bab8f72ca1" />
 
+## 🔗 Links
+
+- URL do site ativo: [Link](https://shillue.github.io/travel-landing-page/)
+
 ## 🚀 Como Executar
 
 Clone este repositório:
