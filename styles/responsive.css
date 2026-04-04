@@ -1,0 +1,155 @@
+/* ============================= */
+/* <= 1000px */
+/* ============================= */
+@media (max-width: 1000px) {
+
+  /* HEADER quebra em duas linhas */
+  .top__header {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 20px;
+    gap: 10px;
+  }
+
+  /* LOGO */
+  .logo {
+    order: 1;
+    width: 150px;
+    height: 80px;
+  }
+
+  /* PERFIL (fica na direita) */
+  .perfil {
+    order: 2;
+    margin-left: auto;
+  }
+
+  /* MENU vai pra baixo */
+  .menu {
+    order: 3;
+    width: 100%;
+  }
+
+  .menu .lista__menu {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0;
+  }
+
+  .menu .lista__menu .menu__item .link {
+    font-size: 14px;
+  }
+
+  /* MAIN */
+  .container__main .content {
+    justify-content: center;
+    gap: 2px;
+    padding: 10px 20px;
+  }
+
+  .content__left {
+    width: 50%;
+  }
+
+  .content__right {
+    width: 50%;
+  }
+  .content__right .setas{
+  gap: 5px;
+}
+  .setas button {
+  width: 35px;
+  height: 35px;
+}
+}
+
+/* ============================= */
+/* <= 800px */
+/* ============================= */
+@media (max-width: 800px) {
+
+  /* Ajuste geral do conteúdo */
+  .container__main .content {
+    flex-direction: column;
+    align-items: center;
+    position: static;
+  }
+
+  /* Content left and right */
+ .content .content__left,
+ .content .content__right {
+    width: 100%;
+  }
+  .content .content__left{
+    padding: 10px;
+  }
+
+   .inform p {
+    width: 90%;
+  }
+
+  /* Botões centralizados */
+  .content__buttons {
+    justify-content: center;
+  }
+
+  /* Carrossel */
+  .imagem {
+    height: 250px;
+  }
+}
+
+/* ============================= */
+/* <= 600px */
+/* ============================= */
+@media (max-width: 600px) {
+
+  /* HEADER mais compacto */
+  .top__header {
+    padding: 10px;
+  }
+
+  /* Logo menor */
+  .logo {
+    width: 120px;
+    height: 70px;
+  }
+
+  /* Menu ainda mais compacto */
+  .menu .lista__menu {
+    gap: 10px;
+  }
+
+  .menu .lista__menu .menu__item .link {
+    font-size: 12px;
+  }
+
+  /* Texto menor */
+  .inform h1 {
+    font-size: 22px;
+  }
+
+  .inform span {
+    font-size: 14px;
+  }
+
+  .inform p {
+    font-size: 12px;
+  }
+
+  /* Carrossel menor */
+  .imagem {
+    height: 200px;
+  }
+
+  /* Controles */
+  .setas button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .controls span {
+    font-size: 20px;
+  }
+}

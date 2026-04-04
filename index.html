@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Styles -->
+     <link rel="stylesheet" href="./styles/style.css">
+     <link rel="stylesheet" href="./styles/responsive.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+      <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/icon.png">
+
+    <title>Adventure</title>
+  </head>
+  <body>
+    <section class="container__main">
+      <header class="top__header">
+
+        <div class="logo" aria-label="Logo do Site">
+          <a href="/" class="link">
+            <img class="logo__img" src="./assets/images/logo.png" alt="Adventure - Página inicial" />
+          </a>
+        </div>
+
+        <nav class="menu" aria-label="Menu principal">
+            <ul class="lista__menu">
+                <li class="menu__item"><a href="#" class="link">Home</a></li>
+                <li class="menu__item"><a href="#" class="link">Packages</a></li>
+                <li class="menu__item"><a href="#" class="link">About Us</a></li>
+                <li class="menu__item"><a href="#" class="link">Destinations</a></li>
+                <li class="menu__item"><a href="#" class="link">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="perfil" aria-label="Perfil do Usuario">
+          
+            <div class="perfil__search">
+                <input type="text" placeholder="Pesquisar..." class="perfil__search__box active"
+                aria-label="Campo de pesquisa">
+                <button class="perfil__search__btn" aria-label="Buscar" title="Pesquisar">
+                    <img src="./assets/icons/lupa.png" alt="Busca" class="icon">
+                </button>
+            </div>
+
+            <a href="#" class="link" aria-label="Perfil do usuário" title="Perfil">
+                <img src="./assets/icons/perfil.png" alt="Perfil">
+            </a>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="content__left">
+          <div class="linha"></div>
+          <div class="inform">
+            <span>Embark On The Journey of A Lifetime</span>
+            <h1>TRAVEL FAR,<br> FIND YOURSELF</h1>
+            <p>Embark on an exciting adventure through diverse landscapes with us! Explore pristine beaches and rolling hills while immersing yourself in local cultures. Join us for unique and unforgettable experiences that you will cherish forever!</p>
+          </div>
+          <div class="content__buttons">
+            <div class="salvo">
+              <img class="img__salvo" src="./assets/icons/salvei.png" alt="Ilustração de Salvei">
+            </div>
+            <a href="#" class="link__start">Start Your Adventure</a>
+          </div>
+          
+        </section>
+
+
+        <section class="content__right">
+
+          <div class="carrossel">
+            <ul class="lista__imagens">
+              <!-- Itens do carrossel gerados via createCarrossel.js -->
+            </ul>
+          </div>
+
+          <div class="controls">
+            <div class="setas">
+              <button class="left"><</button>
+              <button class="right">></button>
+            </div>
+            <div class="linha__carrossel"></div>
+            <span>01</span>
+          </div>
+          
+        </section>
+
+      </main>
+      <footer class="rodape">
+      <p>Coded by <a href="https://www.linkedin.com/in/shillu%C3%AA/" target="_blank" rel="noopener noreferrer">Shilluê</a>.</p>
+    </footer>
+    </section>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
